@@ -27,7 +27,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #35ff00;
+    background-color: #0e6db6;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -68,7 +68,7 @@ header nav ul li{
 
 
 .btn-contato button:hover{
-    box-shadow: 0 0 8px #00ff08;
+    box-shadow: 0 0 8px #0e6db6;
     transform: scale(1.05);
 }
 
@@ -95,7 +95,7 @@ section .topo-do-site .flex{
 }
 
 .topo-do-site .text-topo-site h1 span{
-    color: #00ff08;
+    color: #0e6db6;
 }
 
 .topo-do-site .text-topo-site p{
