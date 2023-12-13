@@ -72,6 +72,10 @@ header nav ul li{
     transform: scale(1.05);
 }
 
+#img-logo{
+    width: 70px;
+}
+
 /*ESTILO DO TOPO DO SITE*/
 
 section .topo-do-site{
@@ -96,12 +100,19 @@ section .topo-do-site .flex{
 
 .topo-do-site .text-topo-site p{
     color: #fff;
-    margin: 40px 0;
+    margin: 40px 30px 40px 10px;
 }
 
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+#img-my-face {
+    width: 100%;
+    max-width: 400px;
+    clip-path: circle(50%);
+    object-fit: cover;
 }
 
 @keyframes flutuar{
