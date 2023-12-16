@@ -137,6 +137,9 @@ section .topo-do-site .flex{
 /*ESTILO DAS ESPECIALIDADES */
 section.especialidades{
     padding: 40px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.especialidades .flex {
@@ -160,12 +163,18 @@ section.especialidades .flex {
     box-shadow: 0 0 8px #ffffff78;
 }
 
-.especialidades .especialidades-box i {
-    font-size: 70px;
+.flex i {
+    font-size: 90px;
+    margin-top: 50px;
+}
+
+#icon-github {
+    color: #fff;
 }
 
 .especialidades .especialidades-box h3 {
-    font-size: 28px;
+    font-size: 18px;
     margin: 15px 0;
+    text-align: center;
 }
 
